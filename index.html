@@ -4,19 +4,28 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
         <!-- FontAwesome -->
         <script src="https://kit.fontawesome.com/ee918c97fa.js" crossorigin="anonymous"></script>
+        
         <!-- Custom CSS -->
         <link rel="stylesheet" href="style.css">
+        
         <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com"> <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
 
-        <title>Krejta</title>
+        <link rel="shortcut icon" type="image/ico" href="assets/favicon.ico"/>
+
+        <title>Martin Fekte | Krejta</title>
     </head>
   
     <body class="body">
+
+        <!-- Menu bar -->
+
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">
                 <img src="assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="finex-logo">
@@ -48,23 +57,21 @@
                     </li>
                 </ul>
 
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-icon">
-                        <i class="nav-icon-link fas fa-user"></i>
+                <ul class="navbar-nav push-right">
+                    <li class="add-divide nav-icon">
+                        <a href="#"><i class="nav-icon-link fas fa-user"></i></a>
                     </li>
-                    <li class="nav-divider">
-                        |
+                    <li class="add-divide nav-icon">
+                        <a href="#"><i class="nav-icon-link fas fa-search"></i></a>
                     </li>
-                    <li class="nav-icon">
-                        <i class="nav-icon-link fas fa-search" href="#"></i>
-                    </li>
-                    <button type="button" class="btn">APPLY NOW</button>
                 </ul>
+                <button type="button" class="btn">APPLY NOW</button>
             </div>
         </nav>
 
+        <!-- Intro with BG image -->
 
-        <div class="intro">
+        <div class="intro mobile-margin">
             <div class="vertical-center">
                 <div class="introdiv fiftyfive-width">
                     <h4>70% Off for first 3 months</h4>
@@ -80,11 +87,14 @@
 
                 <div> 
                     <button type="button" class="d-inline btn">GETTING STARTED</button> 
-                    <h4 class="d-inline underline" href="#">Watch Video<i class="fas fa-caret-right"></i></h4>
+                    <h4 class="d-inline underline"><a href="#" class="red-link">Watch Video<i class="fas fa-caret-right"></i></a></h4>
                 </div> 
             </div>
         </div>
 
+        <div class="centering">
+
+        <!-- About section -->
 
         <div class="about">
             <h4>About us</h4>
@@ -92,9 +102,10 @@
                 We are a fully in-house digital agency focusing branding,
                 marketing, web design and development with clients ranging
                 from start-ups to Fortune 100 companies. 
-            </h3>
+            </div>
         </div>
 
+        <!-- Services section -->
 
         <div class="circles">
             <div class="container">
@@ -133,35 +144,39 @@
             </div>
         </div>
 
+        <!-- Courses section -->
+
         <div class="courses">
             <div class="d-flex">
                 <h4 class="p-2">What Can We Offer You?</h4>
             </div>
             <div class="d-flex shift-up">
                 <h2 class="p-2">Courses Collection</h2>
-                <h4 class="ml-auto p-2 underline">View All Courses</h4>
+                <h4 class="ml-auto p-2 underline"><a href="#" class="red-link">View All Courses</a></h4>
             </div>
 
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-sm">
+                <div class="row d-flex justify-content-center">
+                    <div class="col col-courses">
                         <img class="offer-img" src="assets/marketing.png" alt="marketing">
                     </div>
-                    <div class="col-sm">
+                    <div class="col col-courses">
                         <img class="offer-img" src="assets/career.png" alt="career">
                     </div>
-                    <div class="col-sm">
+                    <div class="col col-courses">
                         <img class="offer-img" src="assets/grades.png" alt="grades">
                     </div>
-                    <div class="col">
+                    <div class="col col-courses">
                         <img class="offer-img" src="assets/web.png" alt="web">
                     </div>
-                    <div class="col">
+                    <div class="col col-courses">
                         <img class="offer-img" src="assets/business.png" alt="business">
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- Email section -->
 
         <div class="get-started">
             <h2>Get started instantly!</h2>
@@ -174,16 +189,20 @@
                 </div>
             </div>
         </div>
+    
+        </div>
 
-        <div class="bottom">
+        <!-- Big footer with menus -->
+
+        <div class="bottom mobile-margin">
             <div class="row">
-                <div class="col-4">
+                <div class="col-3">
                     <a class="navbar-brand footer-name space" href="#">
                         <img src="assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="finex-logo">
                         Finex
                     </a>
                     <div class="intro-text footer-paragraph">
-                        <a href = "mailto: info@yourdomain.com">info@yourdomain.com</a>
+                        <a href="mailto:info@yourdomain.com">info@yourdomain.com</a>
                         <div>(+08) 12345 6789</div>
                     </div>
                     <div class="intro-text footer-paragraph">
@@ -191,11 +210,11 @@
                         <div>New York 12390, United States</div>
                     </div>
 
-                    <div class="footer-paragraph social">
-                        <i class="social-inline fab fa-facebook-f"></i>
-                        <i class="social-inline fab fa-twitter"></i>
-                        <i class="social-inline fab fa-pinterest-p"></i>
-                        <i class="social-inline fab fa-linkedin-in"></i>
+                    <div class="footer-paragraph">
+                        <a class="social" href="#"><i class="social-inline fab fa-facebook-f"></i></a>
+                        <a class="social" href="#"><i class="social-inline fab fa-twitter"></i></a>
+                        <a class="social" href="#"><i class="social-inline fab fa-pinterest-p"></i></a>
+                        <a class="social" href="#"><i class="social-inline fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 
@@ -204,19 +223,19 @@
                         <div>Navigation</div>
                     </div>
                     <div class="footer-item">
-                        <div>Home</div>
+                        <a href="#">Home</a>
                     </div>
                     <div class="footer-item">
-                        <div>About Us</div>
+                        <a href="#">About Us</a>
                     </div>
                     <div class="footer-item">
-                        <div>Product</div>
+                        <a href="#">Product</a>
                     </div>
                     <div class="footer-item">
-                        <div>Customers</div>
+                        <a href="#">Customers</a>
                     </div>
                     <div class="footer-item">
-                        <div>Pricing</div>
+                        <a href="#">Pricing</a>
                     </div>
                 </div>
 
@@ -225,19 +244,19 @@
                         <div>About Us</div>
                     </div>
                     <div class="footer-item">
-                        <div>Company</div>
+                        <a href="#">Company</a>
                     </div>
                     <div class="footer-item">
-                        <div>Jobs</div>
+                        <a href="#">Jobs</a>
                     </div>
                     <div class="footer-item">
-                        <div>Press</div>
+                        <a href="#">Press</a>
                     </div>
                     <div class="footer-item">
-                        <div>Blog</div>
+                        <a href="#">Blog</a>
                     </div>
                     <div class="footer-item">
-                        <div>Contact Us</div>
+                        <a href="#">Contact Us</a>
                     </div>
                 </div>
 
@@ -246,19 +265,19 @@
                         <div>Workflows</div>
                     </div>
                     <div class="footer-item">
-                        <div>Management</div>
+                        <a href="#">Management</a>
                     </div>
                     <div class="footer-item">
-                        <div>Reporting</div>
+                        <a href="#">Reporting</a>
                     </div>
                     <div class="footer-item">
-                        <div>Tracking</div>
+                        <a href="#">Tracking</a>
                     </div>
                     <div class="footer-item">
-                        <div>All Uses</div>
+                        <a href="#">All Uses</a>
                     </div>
                     <div class="footer-item">
-                        <div>F.A.Q</div>
+                        <a href="#">F.A.Q</a>
                     </div>
                 </div>
 
@@ -267,32 +286,47 @@
                         <div>Resources</div>
                     </div>
                     <div class="footer-item">
-                        <div>Global Guide</div>
+                        <a href="#">Global Guide</a>
                     </div>
                     <div class="footer-item">
-                        <div>Support</div>
+                        <a href="#">Support</a>
                     </div>
                     <div class="footer-item">
-                        <div>Integrations</div>
+                        <a href="#">Integrations</a>
                     </div>
                     <div class="footer-item">
-                        <div>Community</div>
+                        <a href="#">Community</a>
                     </div>
                 </div>
               </div>
         </div>
 
+        <!-- Smaller footer under line -->
+
         <div class="footer">
             <hr>
             <div class="d-flex shift-up">
-                <div class="p-2 footer-text">Designed by ThimPress. Powered by Wordpress. Coded by Martin Fekete.</div>
-                <div class="ml-auto p-2 footer-text">Terms of use</div>
-                <div class="ml-auto p-2 footer-text">Privacy Enviromenta</div>
-                <div class="ml-auto p-2 footer-text">Policy</div>
+                <div class="p-2 footer-text">Designed by <span class="redtext">ThimPress</span>. Powered by Wordpress. Coded by <a href="https://github.com/martinfekete10">Martin Fekete</a>.</div>
+                
+                <div class="ml-auto p-2 footer-text">
+                    <ul id="footer-menu">
+                        <li class="add-divide">
+                            <a href="#">Terms of use</a>
+                        </li>
+                        <li class="add-divide">
+                            <a href="#">Privacy Enviromenta</a>
+                        </li>
+                        <li class="add-divide">
+                            <a href="#">Policy</a>
+                        </li>
+                    </ul>
+                </div>
+                
             </div>
         </div>
 
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"  crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"     crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"   integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"   crossorigin="anonymous"></script>
